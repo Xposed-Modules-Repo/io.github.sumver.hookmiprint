@@ -1,0 +1,29 @@
+# Gradle / Android 构建产物
+build/
+app/build/
+.gradle/
+.kotlin/
+
+# IDE
+.idea/
+*.iml
+captures/
+
+# 本机相关（SDK 路径、签名配置等，换机器需自行创建）
+local.properties
+.externalNativeBuild/
+.cxx/
+
+# 构建输出（供手动上传发布用）
+dist/
+
+# 本机密钥（绝不入库）
+keystore/
+*.jks
+*.keystore
+
+# 构建日志
+build-output.log
+
+# 内部技术文档（仅保留 README.md 用于发布）
+README-技术文档.md

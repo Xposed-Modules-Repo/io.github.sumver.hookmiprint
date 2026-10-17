@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">小米打印精简</string>
+    <string name="xposed_description">小米打印APP净化+增强模块</string>
+
+    <string name="settings_subtitle">当前适配版本：4.1.713</string>
+
+    <string name="group_purify">底部导航净化</string>
+    <string name="switch_learn_tab">隐藏底部「资源」tab</string>
+    <string name="switch_learn_tab_summary"></string>
+
+    <string name="group_home">首页净化</string>
+    <string name="switch_home_bottom">隐藏首页下方内容区</string>
+    <string name="switch_home_bottom_summary">隐藏在线资源内容区域</string>
+    <string name="switch_home_menu">为首页添加各类文件快捷打印入口</string>
+    <string name="switch_home_menu_summary">你不再需要点击顶部的打印去选类型了</string>
+
+    <string name="group_uc">我的页净化</string>
+    <string name="switch_uc_member">隐藏「会员中心」</string>
+    <string name="switch_uc_member_summary"></string>
+    <string name="switch_uc_share">隐藏「设备共享」</string>
+    <string name="switch_uc_share_summary"></string>
+    <string name="switch_uc_shop">隐藏「设备耗材」</string>
+    <string name="switch_uc_shop_summary"></string>
+    <string name="switch_uc_team">隐藏「团队管理」</string>
+    <string name="switch_uc_team_summary"></string>
+    <string name="switch_uc_rate">隐藏「给小米打印好评」</string>
+    <string name="switch_uc_rate_summary"></string>
+
+    <string name="settings_hint_title">使用说明</string>
+    <string name="settings_hint">修改设置后，重启（强制停止）小米打印后生效\n\n首次使用请先打开一次本界面生成配置文件；如果未生效，请确保已在 LSPosed 里启用本模块且作用域勾选了「小米打印」APP，然后重启小米打印。\n\n本模块开源地址：https://github.com/Xposed-Modules-Repo/io.github.sumver.hookmiprint\n如失效、BUG请前往以上项目提交issue</string>
+</resources>
